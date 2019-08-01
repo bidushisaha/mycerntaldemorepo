@@ -1,0 +1,24 @@
+1.Sign up for GitHub 
+2. Browse https://github.com/ 
+3.Sign up /sign in 
+4.Create new (public) repo on github 
+---
+gitbash 
+
+cd /c/
+mkdir mytmpfolderforgit
+pwd
+git init
+ls
+ls -la
+cd .git
+cd ..
+
+
+git add README.md
+git commit -m "first commit"
+git log
+git remote add origin https://github.com/yourgithubid/mycerntaldemorepo.git 
+(yourgithubid= steffy2110)
+git remote -v
+
